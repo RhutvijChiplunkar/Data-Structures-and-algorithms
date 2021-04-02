@@ -1,0 +1,46 @@
+Enter the number of elements in array::12
+Enter element arr[0]::5
+Enter element arr[1]::9
+Enter element arr[2]::11
+Enter element arr[3]::59
+Enter element arr[4]::867
+Enter element arr[5]::4549
+Enter element arr[6]::995
+Enter element arr[7]::3021
+Enter element arr[8]::115
+Enter element arr[9]::846
+Enter element arr[10]::2
+Enter element arr[11]::864
+
+The array is::
+5 9 11 59 867 4549 995 3021 115 846 2 864 
+
+Enter the element to be searched in array::555
+ELEMENT NOT PRESENT IN GIVEN ARRAY
+
+Do you want to continue serching? 
+1)YES 
+2)NO
+Your choice::1
+
+Enter the element to be searched in array::846
+ELEMENT FOUND AT INDEX ::9
+
+Do you want to continue serching? 
+1)YES 
+2)NO
+Your choice::2
+Thank you!!
+
+======================================================
+********** ANALYSIS OF LINEAR SEARCH ***********
+========================================================
+
+********** TIME COMPLEXITY ***********
+BEST CASE :: O(1) --> Found at 1-st position
+AVERAGE CASE :: O(n) --> Found in-between 
+WORST CASE :: O(n) --> Element not found
+
+********** SPACE COMPLEXITY ***********
+Space complexity :: O(1)
+======================================================
