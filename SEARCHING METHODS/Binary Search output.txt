@@ -1,0 +1,49 @@
+Enter the number of elements in array::13
+
+Please enter array elements in ASCENDING ORDER
+Enter element arr[0]::1
+Enter element arr[1]::9
+Enter element arr[2]::24
+Enter element arr[3]::39
+Enter element arr[4]::57
+Enter element arr[5]::86
+Enter element arr[6]::99
+Enter element arr[7]::126
+Enter element arr[8]::222
+Enter element arr[9]::291
+Enter element arr[10]::438
+Enter element arr[11]::556
+Enter element arr[12]::972
+
+The array is::
+1 9 24 39 57 86 99 126 222 291 438 556 972 
+
+Enter the element to be searched in array::95
+ELEMENT NOT PRESENT IN GIVEN ARRAY
+
+Do you want to continue serching? 
+1)YES 
+2)NO
+Your choice::1
+
+Enter the element to be searched in array::556
+ELEMENT FOUND AT INDEX ::11
+
+Do you want to continue serching? 
+1)YES 
+2)NO
+Your choice::2
+Thank you!!
+
+======================================================
+********** ANALYSIS OF BINARY SEARCH ***********
+========================================================
+
+********** TIME COMPLEXITY ***********
+BEST CASE :: O(1) --> Found at middle position
+AVERAGE CASE :: O(log n) --> Found in-between 
+WORST CASE :: O(log n) --> Element not found
+
+********** SPACE COMPLEXITY ***********
+Space complexity :: O(1)
+======================================================
