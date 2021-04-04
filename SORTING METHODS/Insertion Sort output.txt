@@ -1,0 +1,30 @@
+Enter the number of elements in array::10
+Enter element arr[0]::9
+Enter element arr[1]::18
+Enter element arr[2]::5
+Enter element arr[3]::46
+Enter element arr[4]::72
+Enter element arr[5]::26
+Enter element arr[6]::154
+Enter element arr[7]::17
+Enter element arr[8]::3
+Enter element arr[9]::11
+
+The array is::
+9 18 5 46 72 26 154 17 3 11 
+
+The sorted array is::
+3 5 9 11 17 18 26 46 72 154 
+
+======================================================
+********** ANALYSIS OF INSERTION SORT ***********
+========================================================
+
+********** TIME COMPLEXITY ***********
+BEST CASE :: O(n) already sorted array--> 
+AVERAGE CASE :: O(n^2) --> elements are partially sorted
+WORST CASE :: O(n^2) --> elements are in descending order
+
+********** SPACE COMPLEXITY ***********
+Space complexity :: O(1)
+======================================================

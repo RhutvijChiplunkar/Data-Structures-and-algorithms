@@ -1,48 +1,34 @@
-Enter the number of elements in array::13
-
-Please enter array elements in ASCENDING ORDER
+Enter the number of elements in array::15
 Enter element arr[0]::1
-Enter element arr[1]::9
-Enter element arr[2]::24
-Enter element arr[3]::39
-Enter element arr[4]::57
-Enter element arr[5]::86
-Enter element arr[6]::99
-Enter element arr[7]::126
-Enter element arr[8]::222
-Enter element arr[9]::291
-Enter element arr[10]::438
-Enter element arr[11]::556
-Enter element arr[12]::972
+Enter element arr[1]::89
+Enter element arr[2]::69
+Enter element arr[3]::845
+Enter element arr[4]::497
+Enter element arr[5]::666
+Enter element arr[6]::536
+Enter element arr[7]::242
+Enter element arr[8]::841
+Enter element arr[9]::202
+Enter element arr[10]::338
+Enter element arr[11]::7
+Enter element arr[12]::116
+Enter element arr[13]::564
+Enter element arr[14]::858
 
 The array is::
-1 9 24 39 57 86 99 126 222 291 438 556 972 
+1 89 69 845 497 666 536 242 841 202 338 7 116 564 858 
 
-Enter the element to be searched in array::95
-ELEMENT NOT PRESENT IN GIVEN ARRAY
-
-Do you want to continue serching? 
-1)YES 
-2)NO
-Your choice::1
-
-Enter the element to be searched in array::556
-ELEMENT FOUND AT INDEX ::11
-
-Do you want to continue serching? 
-1)YES 
-2)NO
-Your choice::2
-Thank you!!
+The sorted array is::
+1 7 69 89 116 202 242 338 497 536 564 666 841 845 858 
 
 ======================================================
-********** ANALYSIS OF BINARY SEARCH ***********
+********** ANALYSIS OF BUBBLE SORT ***********
 ========================================================
 
 ********** TIME COMPLEXITY ***********
-BEST CASE :: O(1) --> Found at middle position
-AVERAGE CASE :: O(log n) --> Found in-between 
-WORST CASE :: O(log n) --> Element not found
+BEST CASE :: O(n)--> already sorted array 
+AVERAGE CASE :: O(n^2) --> elements are partially sorted
+WORST CASE :: O(n^2) --> elements are in descending order
 
 ********** SPACE COMPLEXITY ***********
 Space complexity :: O(1)
