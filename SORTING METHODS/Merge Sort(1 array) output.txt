@@ -1,0 +1,41 @@
+Enter the number of elements in array::8
+Enter element arr[0]::18
+Enter element arr[1]::25
+Enter element arr[2]::7
+Enter element arr[3]::19
+Enter element arr[4]::69
+Enter element arr[5]::85
+Enter element arr[6]::111
+Enter element arr[7]::149
+
+The array is::
+18 25 7 19 69 85 111 149 
+
+CHOOSE METHOD
+1)ITERATIVE MERGE SORT 
+2)RECURSSIVE MERGE SORT
+Enter your choice::1
+
+The sorted array is::
+7 18 19 25 69 85 111 149 
+
+CHOOSE METHOD
+1)ITERATIVE MERGE SORT 
+2)RECURSSIVE MERGE SORT
+Enter your choice::2
+
+The sorted array is::
+7 18 19 25 69 85 111 149 
+
+======================================================
+********** ANALYSIS OF MERGE SORT ***********
+========================================================
+
+********** TIME COMPLEXITY ***********
+BEST CASE :: O(n*log n) 
+AVERAGE CASE :: O(n*log n)
+WORST CASE :: O(n*log n)
+
+********** SPACE COMPLEXITY ***********
+Space complexity :: O(n)
+======================================================
