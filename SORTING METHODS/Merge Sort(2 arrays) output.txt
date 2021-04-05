@@ -1,0 +1,20 @@
+Enter the number of elements in array A::4
+Enter element arr[0]::1
+Enter element arr[1]::9
+Enter element arr[2]::8
+Enter element arr[3]::4
+
+Enter the number of elements in array B::4
+Enter element arr[0]::6
+Enter element arr[1]::22
+Enter element arr[2]::51
+Enter element arr[3]::4
+
+The array A is::
+1 9 8 4 
+
+The array B is::
+6 22 51 4 
+
+SORTED ARRAY IS::
+1 4 4 6 9 8 51 22 

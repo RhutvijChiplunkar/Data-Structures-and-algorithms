@@ -1,0 +1,28 @@
+Enter the number of elements in array::8
+Enter element arr[0]::14
+Enter element arr[1]::23
+Enter element arr[2]::6
+Enter element arr[3]::8
+Enter element arr[4]::1
+Enter element arr[5]::154
+Enter element arr[6]::111
+Enter element arr[7]::967
+
+The array is::
+14 23 6 8 1 154 111 967 
+
+The sorted array is::
+1 6 8 14 23 111 154 967 
+
+======================================================
+********** ANALYSIS OF SHELL SORT ***********
+========================================================
+
+********** TIME COMPLEXITY ***********
+BEST CASE :: O(n*log n)
+AVERAGE CASE :: O(n*((log n)^2))
+WORST CASE :: O(n*((log n)^2))
+
+********** SPACE COMPLEXITY ***********
+Space complexity :: O(1)
+======================================================
