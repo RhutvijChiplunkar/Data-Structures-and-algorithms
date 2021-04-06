@@ -16,7 +16,8 @@ void Create(Stack *St){
 	cout<<"Enter the size of stack::";
 	cin>>St->size;
 	St->top=-1;
-	St->s=(int *)malloc(St->size*sizeof(int));
+	//St->s=(int *)malloc(St->size*sizeof(int));
+	St->s=new int[St->size];
 }
 
 int isFull(Stack St){
