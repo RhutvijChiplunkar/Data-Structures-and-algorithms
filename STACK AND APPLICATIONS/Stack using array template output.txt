@@ -1,0 +1,273 @@
+
+------------STACK TEMPLATE-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)PEEP
+6)TOP OF STACK
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the data you want to insert::a
+
+------------STACK TEMPLATE-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)PEEP
+6)TOP OF STACK
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the data you want to insert::b
+
+------------STACK TEMPLATE-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)PEEP
+6)TOP OF STACK
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the data you want to insert::c
+
+------------STACK TEMPLATE-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)PEEP
+6)TOP OF STACK
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the data you want to insert::d
+
+------------STACK TEMPLATE-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)PEEP
+6)TOP OF STACK
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the data you want to insert::e
+
+Stack is Full. Cannot insert more elements!!
+
+------------STACK TEMPLATE-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)PEEP
+6)TOP OF STACK
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::7
+Elements from top are::
+d
+c
+b
+a
+
+------------STACK TEMPLATE-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)PEEP
+6)TOP OF STACK
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::3
+Stack is Full -->OVERFLOW
+
+------------STACK TEMPLATE-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)PEEP
+6)TOP OF STACK
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::2
+Top element popped from stack
+
+------------STACK TEMPLATE-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)PEEP
+6)TOP OF STACK
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::2
+Top element popped from stack
+
+------------STACK TEMPLATE-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)PEEP
+6)TOP OF STACK
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::2
+Top element popped from stack
+
+------------STACK TEMPLATE-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)PEEP
+6)TOP OF STACK
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::2
+Top element popped from stack
+
+------------STACK TEMPLATE-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)PEEP
+6)TOP OF STACK
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::4
+Stack is Empty --> UNDERFLOW
+
+------------STACK TEMPLATE-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)PEEP
+6)TOP OF STACK
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the data you want to insert::f
+
+------------STACK TEMPLATE-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)PEEP
+6)TOP OF STACK
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the data you want to insert::g
+
+------------STACK TEMPLATE-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)PEEP
+6)TOP OF STACK
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the data you want to insert::h
+
+------------STACK TEMPLATE-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)PEEP
+6)TOP OF STACK
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::7
+Elements from top are::
+h
+g
+f
+
+------------STACK TEMPLATE-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)PEEP
+6)TOP OF STACK
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::5
+Enter position from top::2
+Element at give index is::103
+
+------------STACK TEMPLATE-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)PEEP
+6)TOP OF STACK
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::6
+Top of stack currently is::104
+
+------------STACK TEMPLATE-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)PEEP
+6)TOP OF STACK
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::7
+Elements from top are::
+h
+g
+f
+
+------------STACK TEMPLATE-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)PEEP
+6)TOP OF STACK
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::8
+Thank You!!!
