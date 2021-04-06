@@ -1,0 +1,24 @@
+Enter a mathematical expression with parenthesis::((a+b)*(c/d+e))
+PARENTHESIS MATCHING!!!
+
+Do you want to check more expressions::
+1)YES
+2)NO
+Your choice::1
+
+Enter a mathematical expression with parenthesis::((a+b)*(c-d)))
+PARENTHESIS NOT MATCHING!!!
+
+Do you want to check more expressions::
+1)YES
+2)NO
+Your choice::1
+
+Enter a mathematical expression with parenthesis::(((x+y)*z)+(y^z)
+PARENTHESIS NOT MATCHING!!!
+
+Do you want to check more expressions::
+1)YES
+2)NO
+Your choice::2
+Thank you!!
