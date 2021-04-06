@@ -84,37 +84,6 @@ int main() {
 
 	 Create(&St);				//create a stack
 
-	/* push(&St,10);
-	 push(&St,20);
-	 push(&St,30);
-	 push(&St,40);
-	 push(&St,50);
-	 push(&St,60);
-	 Display(St);
-	 isFull(St);
-
-	 pop(&St);
-	 pop(&St);
-	 pop(&St);
-	 pop(&St);
-	 pop(&St);
-	 pop(&St);
-	 Display(St);		//no elements
-	 isEmpty(St);
-
-	 push(&St,10);
-	 push(&St,20);
-	 push(&St,30);
-	 push(&St,40);
-	 Display(St);
-
-	 cout<<endl;
-	 cout<<StackTop(St);
-	 cout<<endl;
-	 cout<<peep(St,2);
-	 cout<<endl;
-	 Display(St);*/
-
 	 int opn=0;
 	 do{
 	 	 cout<<"\n------------STACK-----------"<<endl;
