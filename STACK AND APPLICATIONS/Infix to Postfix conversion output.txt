@@ -1,0 +1,72 @@
+
+----------INFIX TO POSTFIX---------
+Enter INFIX expression:a+b*c
+
+Valid Expression
+INFIX::a+b*c
+POSTFIX::abc*+
+
+Want to convert more expressions?
+1)YES
+2)NO
+Your choice::1
+
+----------INFIX TO POSTFIX---------
+Enter INFIX expression:a+b+c
+
+Valid Expression
+INFIX::a+b+c
+POSTFIX::ab+c+
+
+Want to convert more expressions?
+1)YES
+2)NO
+Your choice::1
+
+----------INFIX TO POSTFIX---------
+Enter INFIX expression:a*b/c
+
+Valid Expression
+INFIX::a*b/c
+POSTFIX::ab*c/
+
+Want to convert more expressions?
+1)YES
+2)NO
+Your choice::1
+
+----------INFIX TO POSTFIX---------
+Enter INFIX expression:(a+b)/(c+d)^e^f-d*f-d
+
+Valid Expression
+INFIX::(a+b)/(c+d)^e^f-d*f-d
+POSTFIX::ab+cd+ef^df*d--^/
+
+Want to convert more expressions?
+1)YES
+2)NO
+Your choice::1
+
+----------INFIX TO POSTFIX---------
+Enter INFIX expression:a^b^c
+
+Valid Expression
+INFIX::a^b^c
+POSTFIX::abc^^
+
+Want to convert more expressions?
+1)YES
+2)NO
+Your choice::1
+
+----------INFIX TO POSTFIX---------
+Enter INFIX expression:a+b*c-d+
+
+Not a Valid Expression
+
+Want to convert more expressions?
+1)YES
+2)NO
+Your choice::2
+
+Thank you!!
