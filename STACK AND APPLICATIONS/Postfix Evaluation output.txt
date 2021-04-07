@@ -1,0 +1,42 @@
+
+--------POSTFIX EVALUATION----------
+Enter POSTFIX::435*+
+RESULT IS::19
+-------------------------------------
+
+Want to evaluate more expressions?
+1)YES
+2)NO
+Your choice::1
+
+--------POSTFIX EVALUATION----------
+Enter POSTFIX::23+5+
+RESULT IS::10
+-------------------------------------
+
+Want to evaluate more expressions?
+1)YES
+2)NO
+Your choice::1
+
+--------POSTFIX EVALUATION----------
+Enter POSTFIX::94*6/
+RESULT IS::6
+-------------------------------------
+
+Want to evaluate more expressions?
+1)YES
+2)NO
+Your choice::1
+
+--------POSTFIX EVALUATION----------
+Enter POSTFIX::322^^
+RESULT IS::81
+-------------------------------------
+
+Want to evaluate more expressions?
+1)YES
+2)NO
+Your choice::2
+
+Thank you!!
