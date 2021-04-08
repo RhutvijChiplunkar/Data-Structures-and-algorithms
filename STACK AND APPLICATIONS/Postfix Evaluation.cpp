@@ -63,7 +63,8 @@ int PostfixEvaluation(string postfix){
 			S.push(result);
 		}
 	}
-	return S.top();
+
+	return S.top(); 
 }
 
 int main() {
