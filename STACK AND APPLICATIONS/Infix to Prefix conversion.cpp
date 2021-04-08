@@ -1,12 +1,12 @@
 //============================================================================
-// Name        : INFIX TO POSTFIX.cpp
+// Name        : INFIX TO PREFIX.cpp
 // Author      : Rhutvij Chiplunkar
 //============================================================================
 
 #include <iostream>
 #include<stack>
 #include<string>
-#include<bits/stdc++.h>
+#include<algorithm>
 using namespace std;
 
 int precedence(char c){
@@ -37,15 +37,6 @@ bool isOperator(char c){
 	}
 }
 
-//associativity function
-int associativity(char c){
-	if(c=='^')
-		return 1;			//"1" if for "RIGHT TO LEFT"
-	else
-		return 0;			//"0" if for "LEFT TO RIGHT"
-}
-
-
 //check validity of function
 bool ValidExp(string infix){
 	int operators=0,operands=0;
@@ -72,64 +63,107 @@ bool ValidExp(string infix){
 	}
 }
 
-string Infix_to_Postfix(stack<char> S,string infix){
+//associativity function
+int associativity(char c){
+	if(c=='^')
+		return 1;			//"1" if for "RIGHT TO LEFT"
+	else
+		return 0;			//"0" if for "LEFT TO RIGHT"
+}
 
-	string postfix;				//it is an object of string
+string Infix_to_Prefix(stack<char> S,string infix){
+
+	string rev_infix;		//variable to store reverse string
+
+	//reversing a string for scanning in prefix
 	int len=infix.length();
+	for(int i=len-1;i>=0;i--){
+		rev_infix+=infix[i];
+	}
 
-	//traverse string
-	for(int i=0;i<len;i++){
+	/* INBUILT REVERSE FUNCTION IN "ALGORITHM"
+	reverse(infix.begin(),infix.end());
+	*/
+
+	//infix assigned to reverse of it
+	infix=rev_infix;
+
+	string prefix;							//it is an object of string
+	int length=infix.length();
+
+	//traversing through string
+	for(int i=0;i<length;i++){
 		//any "operand"
 		if((infix[i]>='a' && infix[i]<='z')||(infix[i]>='A' && infix[i]<='Z')){
-			postfix+=infix[i];
+			prefix+=infix[i];
 		}
+
 		//for opening bracket
 		else if(infix[i]=='('){
-			S.push(infix[i]);
-		}
-		//for closing bracket
-		else if(infix[i]==')'){
-			while(S.top()!='(' && (!S.empty())){
-				postfix+=S.top();
+			while(S.top()!=')' && (!S.empty())){
+				prefix+=S.top();
 				S.pop();
 			}
 			//remove extra brackets
-			if(S.top()=='('){
+			if(S.top()==')'){
 				S.pop();
 			}
 		}
+
+		//for closing bracket
+		else if(infix[i]==')'){
+			S.push(infix[i]);
+		}
+
 		//For any "Operator"
 		else if(isOperator(infix[i])){
-
-			if(S.empty() or (associativity(infix[i])==1 and precedence(infix[i])==precedence(S.top()))){
+			if(S.empty() or S.top()==')' or precedence(S.top())<precedence(infix[i])){
 				S.push(infix[i]);
 			}
-			else if(S.empty() || S.top()=='(' || precedence(infix[i])>precedence(S.top())){
-				S.push(infix[i]);		//push operator to stack if it has higher precedence
-			}
-			else if(!S.empty()){
-				postfix+=S.top();
+			else if(precedence(S.top())>precedence(infix[i])){
+				prefix+=S.top();
 				S.pop();
 				S.push(infix[i]);
+			}
+			else if(precedence(S.top())==precedence(infix[i])){
+				// right to left
+				if(associativity(S.top())==1){
+					prefix+=S.top();
+					S.pop();
+					S.push(infix[i]);
+				}
+				//left to right
+				else if(associativity(S.top())==0){
+					S.push(infix[i]);
+				}
 			}
 		}
 
 	}//end for
 
 	while(!S.empty()){
-		postfix+=S.top();
+		prefix+=S.top();
 		S.pop();
 	}
-	return postfix;
-}//end function
+
+	// prefix is obtained in reverse order, so again reverse it to get PREFIX
+	string prefix_rev;
+	int l=prefix.length();
+	for(int i=l-1;i>=0;i--){
+		prefix_rev+=prefix[i];
+	}
+
+	//final output
+	return prefix_rev;
+}
 int main() {
 
 	stack<char> S;
-	string infix;			//it is an object of string
+	string infix;		//it is an object of string
 
 	int opn=0;
 	do{
-		cout<<"\n----------INFIX TO POSTFIX---------"<<endl;
+		cout<<"\n----------INFIX TO PREFIX---------"<<endl;
 		cout<<"Enter INFIX expression:";
 		cin>>infix;
 
@@ -137,12 +171,13 @@ int main() {
 		cout<<"\nValid Expression"<<endl;
 		cout<<"INFIX::"<<infix;
 		cout<<endl;
-		cout<<"POSTFIX::";
-		cout<<Infix_to_Postfix(S,infix)<<endl;
+		cout<<"PREFIX::";
+		cout<<Infix_to_Prefix(S,infix)<<endl;
 		}
 		else{
 			cout<<"\nNot a Valid Expression"<<endl;
 		}
+
 		cout<<"\nWant to convert more expressions?"<<endl;
 		cout<<"1)YES\n2)NO"<<endl;
 		cout<<"Your choice::";
@@ -151,4 +186,5 @@ int main() {
 			cout<<"\nThank you!!"<<endl;
 		}
 	}while(opn<2);
+
 }

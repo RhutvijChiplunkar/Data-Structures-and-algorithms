@@ -1,0 +1,62 @@
+
+--------PREFIX EVALUATION----------
+Enter PREFIX::+2*56
+RESULT IS::32
+-------------------------------------
+
+Want to evaluate more expressions?
+1)YES
+2)NO
+Your choice::1
+
+--------PREFIX EVALUATION----------
+Enter PREFIX::-8*29
+RESULT IS::-10
+-------------------------------------
+
+Want to evaluate more expressions?
+1)YES
+2)NO
+Your choice::1
+
+--------PREFIX EVALUATION----------
+Enter PREFIX::+-7*594
+RESULT IS::-34
+-------------------------------------
+
+Want to evaluate more expressions?
+1)YES
+2)NO
+Your choice::1
+
+--------PREFIX EVALUATION----------
+Enter PREFIX::++235
+RESULT IS::10
+-------------------------------------
+
+Want to evaluate more expressions?
+1)YES
+2)NO
+Your choice::1
+
+--------PREFIX EVALUATION----------
+Enter PREFIX::^a^bc
+RESULT IS::0
+-------------------------------------
+
+Want to evaluate more expressions?
+1)YES
+2)NO
+Your choice::1
+
+--------PREFIX EVALUATION----------
+Enter PREFIX::^5^23
+RESULT IS::390625
+-------------------------------------
+
+Want to evaluate more expressions?
+1)YES
+2)NO
+Your choice::2
+
+Thank you!!

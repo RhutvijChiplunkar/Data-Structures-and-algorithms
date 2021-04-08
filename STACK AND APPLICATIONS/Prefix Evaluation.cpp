@@ -1,12 +1,12 @@
 //============================================================================
-// Name        : POSTFIX EVALUATION.cpp
+// Name        : PREFIX EVALUATION.cpp
 // Author      : Rhutvij Chiplunkar
 //============================================================================
 
 #include <iostream>
+#include<cmath>
 #include<stack>
 #include<string>
-#include<cmath>
 using namespace std;
 
 //mathematical operations to be performed
@@ -42,40 +42,50 @@ bool isOperator(char c){
 	}
 }
 
-int PostfixEvaluation(string postfix){
+int PrefixEvaluation(string prefix){
 	stack<int> S;
 	int op1,op2,result;
 
-	for(int i=0;postfix[i]!='\0';i++){
+	// *** REVERSE THE PREFIX FOR SCANNING FROM RIGHT TO LEFT***
+	string prefix_rev;			//variable to store reverse of prefix
+	int len=prefix.length();
+
+	for(int i=len-1;i>=0;i--){
+		prefix_rev+=prefix[i];
+	}
+
+	prefix=prefix_rev;			//assign reverse to prefix
+
+	for(int i=0;i<len;i++){
 		//if "operand"
-		if(!isOperator(postfix[i])){
+		if(!isOperator(prefix[i])){
 			//ASCII code of 0 is subtracted to get integer
-			S.push(postfix[i]-'0');
+			S.push(prefix[i]-'0');
 		}
-		//if "operator"
-		else{
-			op2=S.top();		//upper operand
+		else if(isOperator(prefix[i])){
+			op1=S.top();
 			S.pop();
-			op1=S.top();		//lower operand
+			op2=S.top();
 			S.pop();
-			//calculate result and push on stack
-			result=Operation(op1,op2,postfix[i]);
+
+			//performing operation
+			result=Operation(op1,op2,prefix[i]);
+			//push result into stack
 			S.push(result);
 		}
 	}
-
-	return S.top(); 
+	return S.top();
 }
 
 int main() {
-	string postfix;
+	string prefix;
 
 	int opn=0;
 	do{
-	cout<<"\n--------POSTFIX EVALUATION----------"<<endl;
-	cout<<"Enter POSTFIX::";
-	cin>>postfix;
-	cout<<"RESULT IS::"<<PostfixEvaluation(postfix);
+	cout<<"\n--------PREFIX EVALUATION----------"<<endl;
+	cout<<"Enter PREFIX::";
+	cin>>prefix;
+	cout<<"RESULT IS::"<<PrefixEvaluation(prefix);
 	cout<<"\n-------------------------------------"<<endl;
 
 	cout<<"\nWant to evaluate more expressions?"<<endl;
