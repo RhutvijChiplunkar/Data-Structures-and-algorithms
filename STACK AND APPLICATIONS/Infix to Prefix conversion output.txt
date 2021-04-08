@@ -1,0 +1,72 @@
+
+----------INFIX TO PREFIX---------
+Enter INFIX expression:a+b*c
+
+Valid Expression
+INFIX::a+b*c
+PREFIX::+a*bc
+
+Want to convert more expressions?
+1)YES
+2)NO
+Your choice::1
+
+----------INFIX TO PREFIX---------
+Enter INFIX expression:a^b-c
+
+Valid Expression
+INFIX::a^b-c
+PREFIX::-^abc
+
+Want to convert more expressions?
+1)YES
+2)NO
+Your choice::1
+
+----------INFIX TO PREFIX---------
+Enter INFIX expression:a-b*c+a
+
+Valid Expression
+INFIX::a-b*c+a
+PREFIX::+-a*bca
+
+Want to convert more expressions?
+1)YES
+2)NO
+Your choice::1
+
+----------INFIX TO PREFIX---------
+Enter INFIX expression:a+b+c
+
+Valid Expression
+INFIX::a+b+c
+PREFIX::++abc
+
+Want to convert more expressions?
+1)YES
+2)NO
+Your choice::1
+
+----------INFIX TO PREFIX---------
+Enter INFIX expression:a^b^c
+
+Valid Expression
+INFIX::a^b^c
+PREFIX::^a^bc
+
+Want to convert more expressions?
+1)YES
+2)NO
+Your choice::1
+
+----------INFIX TO PREFIX---------
+Enter INFIX expression:a^c+b-d*
+
+Not a Valid Expression
+
+Want to convert more expressions?
+1)YES
+2)NO
+Your choice::2
+
+Thank you!!
