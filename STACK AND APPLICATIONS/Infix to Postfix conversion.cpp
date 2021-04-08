@@ -9,8 +9,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
-
 int precedence(char c){
 
 	if(c=='^'){
@@ -39,16 +37,20 @@ bool isOperator(char c){
 	}
 }
 
+//associativity function
 int associativity(char c){
 	if(c=='^')
-		return 1;
+		return 1;			//"1" if for "RIGHT TO LEFT"
 	else
-		return 0;
+		return 0;			//"0" if for "LEFT TO RIGHT"
 }
 
+
+//check validity of function
 bool ValidExp(string infix){
 	int operators=0,operands=0;
 	int len=infix.length();
+
 	for(int i=0;i<len;i++){
 		if(infix[i]=='(' || infix[i]==')' ){
 			continue;
@@ -61,6 +63,7 @@ bool ValidExp(string infix){
 		}
 
 	}
+	//operands-operator should be 1
 	if(operands-operators==1){
 		return true;
 	}
@@ -68,10 +71,10 @@ bool ValidExp(string infix){
 		return false;
 	}
 }
+
 string Infix_to_Postfix(stack<char> S,string infix){
 
-	//int i=0;
-	string postfix;
+	string postfix;				//it is an object of string
 	int len=infix.length();
 
 	//traverse string
@@ -102,7 +105,7 @@ string Infix_to_Postfix(stack<char> S,string infix){
 				S.push(infix[i]);
 			}
 			else if(S.empty() || S.top()=='(' || precedence(infix[i])>precedence(S.top())){
-				S.push(infix[i]);		//push operator to stack if it has higher precednce
+				S.push(infix[i]);		//push operator to stack if it has higher precedence
 			}
 			else if(!S.empty()){
 				postfix+=S.top();
@@ -122,7 +125,7 @@ string Infix_to_Postfix(stack<char> S,string infix){
 int main() {
 
 	stack<char> S;
-	string infix;
+	string infix;			//it is an object of string
 
 	int opn=0;
 	do{
