@@ -1,0 +1,220 @@
+Enter the size of queue::4
+
+------------QUEUE-----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the number you want to insert into queue::10
+
+------------QUEUE-----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the number you want to insert into queue::20
+
+------------QUEUE-----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the number you want to insert into queue::30
+
+------------QUEUE-----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the number you want to insert into queue::40
+
+------------QUEUE-----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the number you want to insert into queue::50
+Queue if Full, cannot insert more elements!!
+
+------------QUEUE-----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::3
+Queue is Full
+
+------------QUEUE-----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::5
+Current Front is at::0
+------------QUEUE-----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::6
+Current Rear is at::3
+------------QUEUE-----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::7
+The elements of queue are::
+10 20 30 40 
+
+------------QUEUE-----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::2
+Front element removed from queue
+
+------------QUEUE-----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::2
+Front element removed from queue
+
+------------QUEUE-----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::2
+Front element removed from queue
+
+------------QUEUE-----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::2
+Queue if Empty, cannot delete elements!!
+
+------------QUEUE-----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::4
+Queue is Empty
+
+------------QUEUE-----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::5
+Current Front is at::3
+------------QUEUE-----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::6
+Current Rear is at::3
+------------QUEUE-----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::8
+Thank You!!!
