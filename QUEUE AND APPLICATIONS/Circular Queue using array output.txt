@@ -1,0 +1,223 @@
+Enter the size of queue::4
+
+----------CIRCULAR QUEUE----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the number you want to insert into queue::10
+
+----------CIRCULAR QUEUE----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the number you want to insert into queue::20
+
+----------CIRCULAR QUEUE----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the number you want to insert into queue::30
+
+----------CIRCULAR QUEUE----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the number you want to insert into queue::40
+
+----------CIRCULAR QUEUE----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the number you want to insert into queue::50
+Queue if Full, cannot insert more elements!!
+
+----------CIRCULAR QUEUE----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::3
+Queue is Full
+
+----------CIRCULAR QUEUE----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::5
+Current Front is at::0
+----------CIRCULAR QUEUE----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::6
+Current Rear is at::3
+----------CIRCULAR QUEUE----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::7
+The elements of queue are::
+10 20 30 40 
+
+----------CIRCULAR QUEUE----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::2
+Front element removed from queue
+
+----------CIRCULAR QUEUE----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::2
+Front element removed from queue
+
+----------CIRCULAR QUEUE----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::2
+Front element removed from queue
+
+----------CIRCULAR QUEUE----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::2
+Front element removed from queue
+
+----------CIRCULAR QUEUE----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::2
+Queue is Empty, cannot delete elements!!
+
+----------CIRCULAR QUEUE----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::4
+Queue is Empty
+
+----------CIRCULAR QUEUE----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::7
+The elements of queue are::
+268617540 
+
+----------CIRCULAR QUEUE----------
+1)ENQUEUE
+2)DEQUEUE
+3)IS FULL
+4)IS EMPTY
+5)FRONT OF QUEUE
+6)REAR OF QUEUE
+7)DISPLAY
+8)EXIT
+--------------------------------
+YOUR CHOICE::8
+Thank You!!!
