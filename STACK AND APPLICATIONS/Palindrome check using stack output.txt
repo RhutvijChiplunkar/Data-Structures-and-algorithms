@@ -1,0 +1,33 @@
+--------PALINDROME CHECK--------
+Enter a string::rhutvij
+STRING IS NOT A PALINDROME
+--------------------------------
+Want to check more strings?
+1)YES 
+2)NO
+Your choice::1
+--------PALINDROME CHECK--------
+Enter a string::abcdedcba
+STRING IS A PALINDROME
+--------------------------------
+Want to check more strings?
+1)YES 
+2)NO
+Your choice::1
+--------PALINDROME CHECK--------
+Enter a string::258898852
+STRING IS A PALINDROME
+--------------------------------
+Want to check more strings?
+1)YES 
+2)NO
+Your choice::1
+--------PALINDROME CHECK--------
+Enter a string::github
+STRING IS NOT A PALINDROME
+--------------------------------
+Want to check more strings?
+1)YES 
+2)NO
+Your choice::2
+Thank You!!
