@@ -1,0 +1,186 @@
+
+------------STACK-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)TOP OF STACK
+6)DISPLAY
+7)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the number you want to insert::10
+
+------------STACK-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)TOP OF STACK
+6)DISPLAY
+7)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the number you want to insert::20
+
+------------STACK-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)TOP OF STACK
+6)DISPLAY
+7)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the number you want to insert::30
+
+------------STACK-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)TOP OF STACK
+6)DISPLAY
+7)EXIT
+--------------------------------
+YOUR CHOICE::6
+Elements from top are::
+30
+20
+10
+
+------------STACK-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)TOP OF STACK
+6)DISPLAY
+7)EXIT
+--------------------------------
+YOUR CHOICE::3
+Stack is not Full
+
+------------STACK-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)TOP OF STACK
+6)DISPLAY
+7)EXIT
+--------------------------------
+YOUR CHOICE::2
+Top element popped from stack
+
+------------STACK-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)TOP OF STACK
+6)DISPLAY
+7)EXIT
+--------------------------------
+YOUR CHOICE::2
+Top element popped from stack
+
+------------STACK-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)TOP OF STACK
+6)DISPLAY
+7)EXIT
+--------------------------------
+YOUR CHOICE::2
+Top element popped from stack
+
+------------STACK-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)TOP OF STACK
+6)DISPLAY
+7)EXIT
+--------------------------------
+YOUR CHOICE::2
+
+Cannot pop more elements. Stack is Empty!!
+
+------------STACK-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)TOP OF STACK
+6)DISPLAY
+7)EXIT
+--------------------------------
+YOUR CHOICE::4
+Stack is Empty --> UNDERFLOW
+
+------------STACK-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)TOP OF STACK
+6)DISPLAY
+7)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the number you want to insert::25
+
+------------STACK-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)TOP OF STACK
+6)DISPLAY
+7)EXIT
+--------------------------------
+YOUR CHOICE::1
+Enter the number you want to insert::50
+
+------------STACK-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)TOP OF STACK
+6)DISPLAY
+7)EXIT
+--------------------------------
+YOUR CHOICE::5
+Top of stack currently is::50
+
+------------STACK-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)TOP OF STACK
+6)DISPLAY
+7)EXIT
+--------------------------------
+YOUR CHOICE::6
+Elements from top are::
+50
+25
+
+------------STACK-----------
+1)PUSH
+2)POP
+3)IS FULL
+4)IS EMPTY
+5)TOP OF STACK
+6)DISPLAY
+7)EXIT
+--------------------------------
+YOUR CHOICE::7
+Thank You!!!
