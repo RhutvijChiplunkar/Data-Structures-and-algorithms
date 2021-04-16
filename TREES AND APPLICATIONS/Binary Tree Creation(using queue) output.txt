@@ -1,0 +1,39 @@
+-----------------------------------
+BINARY TREE CREATION AND TRAVERSALS
+-----------------------------------
+Enter the value of root node::100
+
+Enter the value of left child of 100::80
+
+Enter the value of right child of 100::90
+
+Enter the value of left child of 80::40
+
+Enter the value of right child of 80::60
+
+Enter the value of left child of 90::30
+
+Enter the value of right child of 90::50
+
+Enter the value of left child of 40::-1
+
+Enter the value of right child of 40::-1
+
+Enter the value of left child of 60::-1
+
+Enter the value of right child of 60::-1
+
+Enter the value of left child of 30::-1
+
+Enter the value of right child of 30::-1
+
+Enter the value of left child of 50::-1
+
+Enter the value of right child of 50::-1
+
+PREORDER TREE TRAVERSAL::
+100 80 40 60 90 30 50 
+INORDER TREE TRAVERSAL::
+80 40 60 100 90 30 50 
+POSTORDER TREE TRAVERSAL::
+80 40 60 90 30 50 100 
