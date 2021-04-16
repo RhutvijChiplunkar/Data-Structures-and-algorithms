@@ -116,16 +116,16 @@ void preorder(TreeNode *p){
 //for sample inorder display of tree
 void inorder(TreeNode *p){
 	if(p){
-		preorder(p->lchild);
+		inorder(p->lchild);
 		cout<<p->data<<" ";
-		preorder(p->rchild);
+		inorder(p->rchild);
 	}
 }
 //for sample postorder display of tree
 void postorder(TreeNode *p){
 	if(p){
-		preorder(p->lchild);
-		preorder(p->rchild);
+		postorder(p->lchild);
+		postorder(p->rchild);
 		cout<<p->data<<" ";
 	}
 }
