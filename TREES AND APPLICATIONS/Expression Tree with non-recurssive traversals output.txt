@@ -1,0 +1,83 @@
+--------------------------------------------------
+EXPRESSION TREE CREATION AND NON-RECURSSIVE TRAVERSALS
+--------------------------------------------------
+ENTER POSTFIX EXPRESSION:: abc*+
+Tree is successfully created!!!
+--------------------------------------------------
+INORDER EXPRESSION:: a+b*c
+PREORDER EXPRESSION:: +a*bc
+--------------------------------------------------
+
+Want to construct more expression trees
+1)YES
+2)NO
+Your choice::1
+--------------------------------------------------
+EXPRESSION TREE CREATION AND NON-RECURSSIVE TRAVERSALS
+--------------------------------------------------
+ENTER POSTFIX EXPRESSION:: abc++/
+
+Not a Valid Postfix Expression
+
+Want to construct more expression trees
+1)YES
+2)NO
+Your choice::1
+--------------------------------------------------
+EXPRESSION TREE CREATION AND NON-RECURSSIVE TRAVERSALS
+--------------------------------------------------
+ENTER POSTFIX EXPRESSION:: abc^^
+Tree is successfully created!!!
+--------------------------------------------------
+INORDER EXPRESSION:: a^b^c
+PREORDER EXPRESSION:: ^a^bc
+--------------------------------------------------
+
+Want to construct more expression trees
+1)YES
+2)NO
+Your choice::1
+--------------------------------------------------
+EXPRESSION TREE CREATION AND NON-RECURSSIVE TRAVERSALS
+--------------------------------------------------
+ENTER POSTFIX EXPRESSION:: ab^c-
+Tree is successfully created!!!
+--------------------------------------------------
+INORDER EXPRESSION:: a^b-c
+PREORDER EXPRESSION:: -^abc
+--------------------------------------------------
+
+Want to construct more expression trees
+1)YES
+2)NO
+Your choice::1
+--------------------------------------------------
+EXPRESSION TREE CREATION AND NON-RECURSSIVE TRAVERSALS
+--------------------------------------------------
+ENTER POSTFIX EXPRESSION:: ab+c+
+Tree is successfully created!!!
+--------------------------------------------------
+INORDER EXPRESSION:: a+b+c
+PREORDER EXPRESSION:: ++abc
+--------------------------------------------------
+
+Want to construct more expression trees
+1)YES
+2)NO
+Your choice::1
+--------------------------------------------------
+EXPRESSION TREE CREATION AND NON-RECURSSIVE TRAVERSALS
+--------------------------------------------------
+ENTER POSTFIX EXPRESSION:: abcd^*+
+Tree is successfully created!!!
+--------------------------------------------------
+INORDER EXPRESSION:: a+b*c^d
+PREORDER EXPRESSION:: +a*b^cd
+--------------------------------------------------
+
+Want to construct more expression trees
+1)YES
+2)NO
+Your choice::2
+
+Thank you!!
