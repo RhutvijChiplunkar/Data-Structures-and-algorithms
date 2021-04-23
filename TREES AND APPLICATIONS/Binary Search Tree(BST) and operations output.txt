@@ -1,0 +1,40 @@
+--------------------------------------------------
+BINARY SEARCH TREE WITH OPERATIONS
+--------------------------------------------------
+Enter your choice::1
+20Inset ele::
+--------------------------------------------------
+BINARY SEARCH TREE WITH OPERATIONS
+--------------------------------------------------
+Enter your choice::1
+Inset ele::30
+--------------------------------------------------
+BINARY SEARCH TREE WITH OPERATIONS
+--------------------------------------------------
+Enter your choice::1
+Inset ele::10
+--------------------------------------------------
+BINARY SEARCH TREE WITH OPERATIONS
+--------------------------------------------------
+Enter your choice::1
+Inset ele::10
+Data already present
+--------------------------------------------------
+BINARY SEARCH TREE WITH OPERATIONS
+--------------------------------------------------
+Enter your choice::1
+Inset ele::20
+Data already present
+--------------------------------------------------
+BINARY SEARCH TREE WITH OPERATIONS
+--------------------------------------------------
+Enter your choice::1
+Inset ele::30
+Data already present
+--------------------------------------------------
+BINARY SEARCH TREE WITH OPERATIONS
+--------------------------------------------------
+Enter your choice::5
+Thank you!!
+10 20 30 
+Element 20 found in the tree
