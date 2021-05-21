@@ -1,0 +1,4 @@
+Breadth first search
+6 4 2 3 5 1 
+Depth first search
+6 4 2 1 3 5 
