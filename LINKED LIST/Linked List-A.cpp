@@ -97,6 +97,30 @@ int Recursive_sum(Node *temp){
 	}
 }
 
+int max_element(Node *temp){
+	int max=INT_MIN;
+	while(temp){
+		if(temp->data>max){
+			max=temp->data;
+		}
+		temp=temp->next;
+	}
+	return max;
+}
+int Recursive_max_element(Node *temp){
+	int x=0;
+
+	if(temp==NULL){
+		return INT_MIN;
+	}
+	x=Recursive_max_element(temp->next);
+	if(x>temp->data){
+		return x;
+	}
+	else{
+		return temp->data;
+	}
+}
 void Analysis(){
 	cout<<"\n======================================================"<<endl;
 	cout<<"********** ANALYSIS OF DISPLAY LINKED LIST ***********"<<endl;
@@ -128,14 +152,19 @@ int main() {
 	Recursive_DisplayLL(first);
 	cout<<"\nThe reverse of linked list by recursive display is::"<<endl;
 	Reverse_Recursive_DisplayLL(first);
+
 	cout<<"\n\nThe number of nodes in a linked list::"<<endl;
 	cout<<"By iterative method::"<<count_nodes(first)<<endl;
 	cout<<"By recursive method::"<<Recursive_count_nodes(first)<<endl;
+
 	cout<<"\nThe sum of elements in a linked list::"<<endl;
 	cout<<"By iterative method::"<<sum(first)<<endl;
 	cout<<"By recursive method::"<<Recursive_sum(first)<<endl;
+
+	cout<<"\nThe maximum elements in a linked list::"<<endl;
+	cout<<"By iterative method::"<<max_element(first)<<endl;
+	cout<<"By recursive method::"<<Recursive_max_element(first)<<endl;
 	Analysis();
 
 	return 0;
 }
-

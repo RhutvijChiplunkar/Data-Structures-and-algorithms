@@ -1,23 +1,27 @@
 Enter the number of elements in array::7
 Enter 7 elements
-1 9 45 84 62 38 121
+121 95 846 759 482 615 475
 
 ======================================================
 ******** DISPLAY ********
 The linked list by iterative display is::
-1 9 45 84 62 38 121
+121 95 846 759 482 615 475 
 The linked list by recursive display is::
-1 9 45 84 62 38 121
+121 95 846 759 482 615 475 
 The reverse of linked list by recursive display is::
-121 38 62 84 45 9 1
+475 615 482 759 846 95 121 
 
 The number of nodes in a linked list::
 By iterative method::7
 By recursive method::7
 
 The sum of elements in a linked list::
-By iterative method::360
-By recursive method::360
+By iterative method::3393
+By recursive method::3393
+
+The maximum elements in a linked list::
+By iterative method::846
+By recursive method::846
 
 ======================================================
 ********** ANALYSIS OF DISPLAY LINKED LIST ***********
