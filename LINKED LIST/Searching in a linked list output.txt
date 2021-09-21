@@ -1,0 +1,26 @@
+Enter the number of elements in array::7
+Enter 7 elements
+103 459 784 651 422 121 9
+
+======================================================
+******** DISPLAY ********
+The linked list by iterative display is::
+103 459 784 651 422 121 9 
+======================================================
+******** Searching in a linked list ********
+
+Enter element to be searched:422
+
+A) Iterative Linear Search
+422 is found in the linked list
+
+B) Recursive Linear Search
+422 is found in the linked list
+
+======================================================
+******** Move to front linear search ********
+
+Enter element to be searched:121
+121 is found in the linked list
+121 103 459 784 651 422 9 
+======================================================
