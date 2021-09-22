@@ -1,0 +1,22 @@
+Enter the number of elements in array::3
+Enter 3 elements
+20 30 40
+
+======================================================
+The linked list by iterative display is::
+20 30 40 
+======================================================
+******** Inserting in a linked list *********
+
+Enter element to be inserted:10
+
+A) Insert at front
+10 20 30 40 
+
+B) Insert in between
+Enter position at which element is to be inserted:3
+10 20 30 10 40 
+
+C) Insert at last index
+10 20 30 10 40 10 
+======================================================
