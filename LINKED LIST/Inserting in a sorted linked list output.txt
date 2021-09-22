@@ -1,0 +1,13 @@
+Enter the number of elements in array::6
+Enter 6 elements
+78 49 62 81 495 227
+
+======================================================
+The linked list by iterative display is::
+49 62 78 81 227 495 
+======================================================
+******** Inserting in a sorted linked list *********
+
+Enter element to be inserted:100
+49 62 78 81 100 227 495 
+======================================================
