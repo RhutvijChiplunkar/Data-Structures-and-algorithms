@@ -1,0 +1,14 @@
+Enter the number of elements in array::7
+Enter 7 elements
+51 403 15 49 846 22 1
+
+======================================================
+The linked list by iterative display is::
+51 403 15 49 846 22 1 
+======================================================
+******** Deleting from a linked list *********
+
+Enter position at which element is to be deleted:2
+403 is deleted from the linked list
+51 15 49 846 22 1 
+======================================================
