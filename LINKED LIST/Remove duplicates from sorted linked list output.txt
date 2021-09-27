@@ -1,0 +1,13 @@
+Enter the number of elements in array::7
+Enter 7 elements
+10 10 20 20 30 40 40
+
+======================================================
+******** DISPLAY ********
+The linked list by iterative display is::
+10 10 20 20 30 40 40 
+
+--Removing duplicates from the linked list--
+**After removing duplicates**
+10 20 30 40 
+======================================================
