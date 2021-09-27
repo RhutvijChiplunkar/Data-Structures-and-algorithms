@@ -1,0 +1,11 @@
+Enter the number of elements in array::5
+Enter 5 elements
+4 1 2 5 9
+
+======================================================
+******** DISPLAY ********
+The linked list by iterative display is::
+4 1 2 5 9 
+
+Check if linked list is sorted::
+Linked list is not sorted
