@@ -1,0 +1,17 @@
+Enter the number of elements in array::8
+Enter 8 elements
+15 16 49 72 2 28 496 55
+
+======================================================
+The linked list by iterative display is::
+15 16 49 72 2 28 496 55 
+======================================================
+******** Reversing a linked list *********
+
+A) By reversing the elements
+55 496 28 2 72 49 16 15 
+B) By reversing the links - Sliding pointers
+55 496 28 2 72 49 16 15 
+C) Using Recursion
+55 496 28 2 72 49 16 15 
+======================================================
