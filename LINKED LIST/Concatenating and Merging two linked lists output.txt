@@ -1,0 +1,32 @@
+1) Concatenate 2 Linked lists
+2) Merge 2 Linked lists
+3) Exit
+
+Your option::1
+Enter the number of elements in first array::5
+Enter 5 elements
+5 10 15 20 25
+Enter the number of elements in second array::4
+Enter 4 elements
+100 200 300 400
+5 10 15 20 25 100 200 300 400 
+
+1) Concatenate 2 Linked lists
+2) Merge 2 Linked lists
+3) Exit
+
+Your option::2
+Enter the number of elements in first array::5
+Enter 5 elements
+10 61 44 2 96
+Enter the number of elements in second array::6
+Enter 6 elements
+1 29 849 77 69 333
+1 2 10 29 44 61 69 77 96 333 849 
+
+1) Concatenate 2 Linked lists
+2) Merge 2 Linked lists
+3) Exit
+
+Your option::3
+Thank you
