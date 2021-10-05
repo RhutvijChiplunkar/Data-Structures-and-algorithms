@@ -10,7 +10,7 @@ int Binary_Search(int arr[],int n, int key){
 	int low=0;
 	int high=n-1;
 	while(low<=high){
-		int mid=(low+high)/2;
+		int mid=low+(high-low)/2;		//(low+high)/2 is avoided because sometimes the value of mid may overflow
 		if(key==arr[mid]){
 			return mid;
 		}
@@ -30,8 +30,8 @@ void Analysis(){
 	cout<<"========================================================"<<endl;
 	cout<<"\n********** TIME COMPLEXITY ***********"<<endl;
 	cout<<"BEST CASE :: O(1) --> Found at middle position"<<endl;
-	cout<<"AVERAGE CASE :: O(n) --> Found in-between "<<endl;
-	cout<<"WORST CASE :: O(n) --> Element not found"<<endl;
+	cout<<"AVERAGE CASE :: O(log n) --> Found in-between "<<endl;
+	cout<<"WORST CASE :: O(log n) --> Element not found"<<endl;
 	cout<<endl;
 
 	cout<<"********** SPACE COMPLEXITY ***********"<<endl;
@@ -67,13 +67,12 @@ int main() {
 	cin>>k;
 
 	int result=Binary_Search(arr,n,k);
-
 	if(result==-1)
 			cout<<"ELEMENT NOT PRESENT IN GIVEN ARRAY"<<endl;
 	else
 		cout<<"ELEMENT FOUND AT INDEX ::"<<result<<endl;
 
-	cout<<"\nDo you want to continue serching? \n1)YES \n2)NO"<<endl;
+	cout<<"\nDo you want to continue searching? \n1)YES \n2)NO"<<endl;
 	cout<<"Your choice::";
 	cin>>opn;
 
@@ -83,4 +82,5 @@ int main() {
 	}while(opn==1);
 
 	Analysis();
+
 }

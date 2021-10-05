@@ -1,35 +1,45 @@
-Enter the number of elements in array::13
+Enter the number of elements in array::15
 
 Please enter array elements in ASCENDING ORDER
-Enter element arr[0]::1
-Enter element arr[1]::9
-Enter element arr[2]::24
-Enter element arr[3]::39
-Enter element arr[4]::57
-Enter element arr[5]::86
-Enter element arr[6]::99
-Enter element arr[7]::126
-Enter element arr[8]::222
-Enter element arr[9]::291
-Enter element arr[10]::438
-Enter element arr[11]::556
-Enter element arr[12]::972
+Enter element arr[0]::5
+Enter element arr[1]::14
+Enter element arr[2]::18
+Enter element arr[3]::22
+Enter element arr[4]::44
+Enter element arr[5]::49
+Enter element arr[6]::52
+Enter element arr[7]::100
+Enter element arr[8]::426
+Enter element arr[9]::859
+Enter element arr[10]::995
+Enter element arr[11]::1010
+Enter element arr[12]::2323
+Enter element arr[13]::3626
+Enter element arr[14]::4545
 
 The array is::
-1 9 24 39 57 86 99 126 222 291 438 556 972 
+5 14 18 22 44 49 52 100 426 859 995 1010 2323 3626 4545 
 
-Enter the element to be searched in array::95
-ELEMENT NOT PRESENT IN GIVEN ARRAY
+Enter the element to be searched in array::49
+ELEMENT FOUND AT INDEX ::5
 
-Do you want to continue serching? 
+Do you want to continue searching? 
 1)YES 
 2)NO
 Your choice::1
 
-Enter the element to be searched in array::556
-ELEMENT FOUND AT INDEX ::11
+Enter the element to be searched in array::3626
+ELEMENT FOUND AT INDEX ::13
 
-Do you want to continue serching? 
+Do you want to continue searching? 
+1)YES 
+2)NO
+Your choice::1
+
+Enter the element to be searched in array::7989
+ELEMENT NOT PRESENT IN GIVEN ARRAY
+
+Do you want to continue searching? 
 1)YES 
 2)NO
 Your choice::2
