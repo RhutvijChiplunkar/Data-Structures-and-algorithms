@@ -1,27 +1,27 @@
 Enter the number of elements in array::10
-Enter element arr[0]::70
-Enter element arr[1]::624
-Enter element arr[2]::444
-Enter element arr[3]::124
-Enter element arr[4]::14
-Enter element arr[5]::03
-Enter element arr[6]::11
-Enter element arr[7]::957
-Enter element arr[8]::4646
-Enter element arr[9]::22
+Enter element arr[0]::164
+Enter element arr[1]::155
+Enter element arr[2]::495
+Enter element arr[3]::888
+Enter element arr[4]::6591
+Enter element arr[5]::3620
+Enter element arr[6]::111
+Enter element arr[7]::132
+Enter element arr[8]::0
+Enter element arr[9]::794
 
 The array is::
-70 624 444 124 14 3 11 957 4646 22 
+164 155 495 888 6591 3620 111 132 0 794 
 
-Enter the element to be searched in array::957
-ELEMENT FOUND AT INDEX ::7
+Enter the element to be searched in array::111
+ELEMENT FOUND AT INDEX ::6
 
 Do you want to continue searching? 
 1)YES 
 2)NO
 Your choice::1
 
-Enter the element to be searched in array::888
+Enter the element to be searched in array::9636
 ELEMENT NOT PRESENT IN GIVEN ARRAY
 
 Do you want to continue searching? 
